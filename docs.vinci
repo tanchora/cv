@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="Таня молодец" id="index" text="Таня молодец" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/default/primary.vinci"/>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Конюкова Татьяна Владимировна" id="header" text="Конюкова Татьяна Владимировна" linkedElements="index" sectionStyle="Default" activatorType="None" pageTemplate="./Sandstone_P_PD.vinci">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="скрытый принципал" id="index" icon="far fa-user" linkedElements="23056771-2d02-450a-93ee-6ab4208e1203 177ea55c-3ef4-4619-a60c-e43288fb5963 portfolio 0feff993-8f43-4ad4-83a1-199bccd67598" sectionStyle="Default">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Опыт работы" id="23056771-2d02-450a-93ee-6ab4208e1203" text="Опыт работы" role="Context"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Образование и навыки" id="177ea55c-3ef4-4619-a60c-e43288fb5963" text="Образование и навыки" role="Context"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Портфолио" id="portfolio" text="Портфолио" linkedElements="4da48b90-0ed1-410d-9770-bfb22a42a6d8 a9dfa175-56c9-442a-88ae-03b011335fc7 3ad3a968-6c03-4498-956b-e02f32a3ad91" role="Context" sectionStyle="Tab">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Проекты" id="4da48b90-0ed1-410d-9770-bfb22a42a6d8" text="Проекты" role="Section"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Публикации" id="a9dfa175-56c9-442a-88ae-03b011335fc7" text="Публикации" role="Section"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прочее" id="3ad3a968-6c03-4498-956b-e02f32a3ad91" text="Прочее" role="Section"/>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="О себе" id="0feff993-8f43-4ad4-83a1-199bccd67598" text="" role="Section">
+      <content xsi:type="org.nasdanika.vinci.bootstrap:Container">
+        <rows>
+          <columns>
+            <content xsi:type="org.nasdanika.vinci.components:MarkdownText" style="true" markdown="![](./img/avatar_udemy.JPG)&#xD;&#xA;">
+              <appearance background="Light">
+                <attributes xsi:type="org.nasdanika.ncore:Object" name="class">
+                  <entries xsi:type="org.nasdanika.ncore:Property" value="lg" name="shadow"/>
+                  <entries xsi:type="org.nasdanika.ncore:Property" name="rounded"/>
+                </attributes>
+                <margin size="5" top="false" left="false" right="false"/>
+                <padding size="2"/>
+              </appearance>
+            </content>
+            <width width="3"/>
+          </columns>
+          <columns>
+            <content xsi:type="org.nasdanika.vinci.components:MarkdownText" style="true" markdown="__Конюкова Татьяна__&#xD;&#xA;&#xD;&#xA;45 лет &#xD;&#xA;&#xD;&#xA;Хабаровск, не готова к переезду, готова к командировкам&#xD;&#xA;&#xD;&#xA;---&#xD;&#xA;&#xD;&#xA;Более 20 лет моя профессиональная деятельность так или иначе связана с обучением и методической поддержкой пользователей программного обеспечения и студентов.&#xD;&#xA;&#xD;&#xA;С  2012 - по настоящее время - работа в  сфере разработки и внедрения программного обеспечения. Специалист полного цикла: от разработки плана проекта, анализа требований заказчика, постановки задач разработчикам и закупки оборудования до обучения пользователей и внедрения в промышленную эксплуатацию.&#xD;&#xA;&#xD;&#xA;За 8 лет принимала участие 14 крупных самостоятельных проектах из них 8 - в качестве руководителя, либо ИТ - куратора проекта.&#xD;&#xA;&#xD;&#xA;C 1998 по 2012 год  - деятельность в сфере поиска, анализа и научной компиляции информации. Репетиторство.&#xD;&#xA;&#xD;&#xA;Образование - бухгалтер-экономист.">
+              <appearance background="White">
+                <attributes xsi:type="org.nasdanika.ncore:Object" name="class">
+                  <entries xsi:type="org.nasdanika.ncore:Property" value="lg" name="shadow"/>
+                  <entries xsi:type="org.nasdanika.ncore:Property" name="rounded"/>
+                </attributes>
+                <margin size="2"/>
+                <padding size="3"/>
+              </appearance>
+            </content>
+            <width width="9"/>
+          </columns>
+        </rows>
+      </content>
+    </elements>
+  </elements>
+</org.nasdanika.vinci.app:Action>
