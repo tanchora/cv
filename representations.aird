@@ -3,16 +3,25 @@
   <viewpoint:DAnalysis uid="_38iTgMffEeqQXZqHt45rZQ" selectedViews="_SODfgMfgEeqQXZqHt45rZQ" version="14.3.0.201909031200">
     <semanticResources>docs.vinci</semanticResources>
     <semanticResources>Sandstone_P_PD.vinci</semanticResources>
+    <semanticResources>сценарий.vinci</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_SODfgMfgEeqQXZqHt45rZQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_SORh8MfgEeqQXZqHt45rZQ" name="docs" repPath="#_SOPFsMfgEeqQXZqHt45rZQ">
         <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#header"/>
       </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_xy1pYMg3EeqQXZqHt45rZQ" name="сценарий" repPath="#_xy1CUMg3EeqQXZqHt45rZQ">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="сценарий.vinci#b1b66cc7-737c-4795-b55e-75262c5f6719"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
   <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_SOPFsMfgEeqQXZqHt45rZQ">
     <target xmi:type="org.nasdanika.vinci.app:Action" href="docs.vinci#header"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_xy1CUMg3EeqQXZqHt45rZQ">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="сценарий.vinci#b1b66cc7-737c-4795-b55e-75262c5f6719"/>
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
 </xmi:XMI>
