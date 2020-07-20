@@ -29,7 +29,7 @@
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="Графические редакторы" id="be252387-afa2-4c33-a4b1-c16c0d0563dc" text="Графические редакторы" role="Section" markdownContent="&#xD;&#xA;- CorelDraw&#xD;&#xA;- Inksape &#xD;&#xA;- CorelPhotoPaint&#xD;&#xA; "/>
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="Среды разработки" id="11b47d9e-be90-45a1-a232-804d09ea522b" text="Среды разработки" role="Section" markdownContent="&#xD;&#xA;- IDE Eclipse (Modeling tools)&#xD;&#xA;- Visual Syudio - поверхностно, в части работы с SQL"/>
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="Информационно правовые системы" id="281bd565-3492-4798-8d26-292e633688bb" text="Информационно правовые системы" role="Section" markdownContent="&#xD;&#xA;- ИПС Гарант     &#xD;&#xA;- ИПС «Консультант» &#xD;&#xA;(продвинутый пользователь)&#xD;&#xA;"/>
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Технологии" id="605fb625-bc6e-426b-8ec5-6fc2b7f7928b" text="Технологии" markdownContent="- HTML + CSS&#xD;&#xA;- markdown&#xD;&#xA;- SQL (знание общих принципов построения реляционных баз данных)&#xD;&#xA;- UML (знание общих принципов построения функционально-ролевых моделей)&#xD;&#xA;- BPML (основы);&#xD;&#xA;"/>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Технологии" id="605fb625-bc6e-426b-8ec5-6fc2b7f7928b" text="Технологии" markdownContent="- HTML + CSS&#xD;&#xA;- Bootstrap&#xD;&#xA;- markdown&#xD;&#xA;- SQL (знание общих принципов построения реляционных баз данных)&#xD;&#xA;- UML (знание общих принципов построения функционально-ролевых моделей)&#xD;&#xA;- DAX&#xD;&#xA;&#xD;&#xA;"/>
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="Другое" id="d8a1ecea-6809-4e13-bcc3-e4ef36dbb360" text="Другое" markdownContent="&#xD;&#xA;- Владение слепым десятипальцевым методом набора текста&#xD;&#xA;- Английский: начальный уровень (чтение и перевод технической документации, переписка со словарем)&#xD;&#xA;"/>
       </elements>
     </elements>
@@ -52,7 +52,9 @@
           <content xsi:type="org.nasdanika.ncore:Value" value="&lt;iframe  src=&quot;https://tanchora.github.io/vinci_udemy_base_course/index.html&quot; width=&quot;100%&quot; height=&quot;100%&quot;>&lt;/iframe>"/>
         </elements>
       </elements>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прочее" id="3ad3a968-6c03-4498-956b-e02f32a3ad91" text="Прочее" role="Section"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прочее" id="3ad3a968-6c03-4498-956b-e02f32a3ad91" text="Прочее" role="Section">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Сайт про цветочки" id="7bd1e0a8-d2df-4fca-b038-3bce23351163" text="Адениум - ДВ" role="Section" markdownContent="https://tanchora.github.io/adenium-dv/"/>
+      </elements>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Summary" id="0feff993-8f43-4ad4-83a1-199bccd67598" text="" role="Section">
       <content xsi:type="org.nasdanika.vinci.bootstrap:Container">
