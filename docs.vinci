@@ -34,8 +34,22 @@
       </elements>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Портфолио" id="portfolio" text="Портфолио" linkedElements="4da48b90-0ed1-410d-9770-bfb22a42a6d8 a9dfa175-56c9-442a-88ae-03b011335fc7 3ad3a968-6c03-4498-956b-e02f32a3ad91" role="Context" sectionStyle="Tab">
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Проекты" id="4da48b90-0ed1-410d-9770-bfb22a42a6d8" text="Проекты" role="Section" markdownContent=":&#xD;&#xA;курс на платформе Udemy https://www.udemy.com/course/nasdanika-vinci-level-1&#xD;&#xA;https://tanchora.github.io/vinci_udemy_base_course/courseprogram/index.html&#xD;&#xA;"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Публикации" id="a9dfa175-56c9-442a-88ae-03b011335fc7" text="Публикации" role="Section"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Проекты" id="4da48b90-0ed1-410d-9770-bfb22a42a6d8" text="Проекты" linkedElements="4cc853de-a641-4686-9999-3f4ac27c5be3 87cf765f-f070-4850-94eb-97286c110994" role="Section" sectionStyle="Table" markdownContent="&#xD;&#xA;&#xD;&#xA;">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="проекты в обратном календарном порядке 03.2019 - по сейчас" id="4cc853de-a641-4686-9999-3f4ac27c5be3" text="Март 2019 - по настоящее время" linkedElements="59e9911c-109d-4318-9f4d-430a6c578d17" role="Section" markdownContent="Разработка конструктора-генератора сложноструктурированных статических веб-сайтов __Nasdanika Vinci__.&#xD;&#xA;&#xD;&#xA;">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Задачи на проекте" id="59e9911c-109d-4318-9f4d-430a6c578d17" text="Задачи на проекте" role="Context"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Результаты проекта" id="9adf4e5a-93f4-460e-b3bd-fcf603bade1b" text="Результаты проекта" role="Context"/>
+        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="проекты в обратном календарном порядке 09.18 - 03.2019" id="87cf765f-f070-4850-94eb-97286c110994" text="Сентябрь 2018 - март 2019" role="Section" markdownContent="Оптимизация бизнес-процесса по учёту основных средств с внедрением 1С «Инвентаризация и управление имуществом» в Эником Невада групп">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Задачи на проекте" id="5ebc47b5-b0ef-4f0b-8a05-83b7483c16fa" text="Задачи на проекте" role="Context"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Результаты проекта" id="7ea2438f-b8aa-43fe-97e5-e54453c2765f" text="Результаты проекта" role="Context"/>
+        </elements>
+      </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Публикации" id="a9dfa175-56c9-442a-88ae-03b011335fc7" text="Публикации" linkedElements="ad3121df-aa15-4111-851f-a3845c3b9565" role="Section" sectionStyle="Card" sectionColumns="2">
+        <appearance>
+          <margin size="4" breakpoint="Large" left="false" right="false"/>
+        </appearance>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Теоретические основы построения Vinci - моделей. На основе базового курса Создаём веб - портофолио" id="ad3121df-aa15-4111-851f-a3845c3b9565" text="Теоретические основы построения Vinci - моделей. На основе базового курса &quot;Создаём веб - портофолио с генератором сайтов Nasdanika Vinci&quot;" role="Section" markdownContent="https://tanchora.github.io/vinci_udemy_base_course/index.html"/>
+      </elements>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прочее" id="3ad3a968-6c03-4498-956b-e02f32a3ad91" text="Прочее" role="Section"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Summary" id="0feff993-8f43-4ad4-83a1-199bccd67598" text="" role="Section">
