@@ -48,7 +48,9 @@
         <appearance>
           <margin size="4" breakpoint="Large" left="false" right="false"/>
         </appearance>
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Теоретические основы построения Vinci - моделей. На основе базового курса Создаём веб - портофолио" id="ad3121df-aa15-4111-851f-a3845c3b9565" text="Теоретические основы построения Vinci - моделей. На основе базового курса &quot;Создаём веб - портофолио с генератором сайтов Nasdanika Vinci&quot;" role="Section" markdownContent="https://tanchora.github.io/vinci_udemy_base_course/index.html"/>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Теоретические основы построения Vinci - моделей. На основе базового курса Создаём веб - портофолио" id="ad3121df-aa15-4111-851f-a3845c3b9565" text="Теоретические основы построения Vinci - моделей. На основе базового курса &quot;Создаём веб - портофолио с генератором сайтов Nasdanika Vinci&quot;" role="Section" markdownContent="https://tanchora.github.io/vinci_udemy_base_course/index.html">
+          <content xsi:type="org.nasdanika.ncore:Value" value="&lt;iframe  src=&quot;https://tanchora.github.io/vinci_udemy_base_course/index.html&quot; width=&quot;100%&quot; height=&quot;100%&quot;>&lt;/iframe>"/>
+        </elements>
       </elements>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прочее" id="3ad3a968-6c03-4498-956b-e02f32a3ad91" text="Прочее" role="Section"/>
     </elements>
