@@ -49,7 +49,7 @@
         <appearance>
           <margin size="4" breakpoint="Large" left="false" right="false"/>
         </appearance>
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео-курс Создаём веб - портофолио" description="[Перейти платформу Udemy](https://www.udemy.com/course/nasdanika-vinci-level-1)&#xD;&#xA;&#xD;&#xA;[Посмотреть на YouTube](https://www.youtube.com/playlist?list=PLqZWa5YR2-FhWXAS_yKuAOUtUmLYDGcpf)" id="ad3121df-aa15-4111-851f-a3845c3b9565" color="Primary" text="Видео-курс &quot;Создаём веб - портофолио с генератором сайтов Nasdanika Vinci&quot;" linkedElements="65c8168a-aebf-457b-8029-4e3d54171aeb 24e44ca4-62d5-48fb-8f24-50110a9ae16e" role="Section" activator="" markdownContent="![](./img/BaseCourceZastavka_0401.svg)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark-fluid.vinci">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео-курс Создаём веб - портофолио" description="[Перейти платформу Udemy](https://www.udemy.com/course/nasdanika-vinci-level-1)&#xD;&#xA;&#xD;&#xA;[Посмотреть на YouTube](https://www.youtube.com/playlist?list=PLqZWa5YR2-FhWXAS_yKuAOUtUmLYDGcpf)" id="ad3121df-aa15-4111-851f-a3845c3b9565" color="Primary" text="Видео-курс &quot;Создаём веб - портофолио с генератором сайтов Nasdanika Vinci&quot;" linkedElements="65c8168a-aebf-457b-8029-4e3d54171aeb 24e44ca4-62d5-48fb-8f24-50110a9ae16e" role="Section" activator="" markdownContent="![](./img/BaseCourceZastavka_0401.svg)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="">
           <appearance>
             <text alignment="Center" color="Light"/>
           </appearance>
@@ -64,7 +64,7 @@
             </appearance>
           </elements>
         </elements>
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Теоретические основы использования Nasdanika Vinci" id="47e42fa6-2a7a-49ae-a49a-d25f7b160202" color="Primary" text="Теоретические основы построения Vinci - моделей и создания Vinci - сайтов" role="Section" activator="" markdownContent="![](./img/GetStarted01.svg)&#xD;&#xA;" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark-fluid.vinci">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Теоретические основы использования Nasdanika Vinci" id="47e42fa6-2a7a-49ae-a49a-d25f7b160202" color="Primary" text="Теоретические основы построения Vinci - моделей и создания Vinci - сайтов" role="Section" activator="" markdownContent="![](./img/GetStarted01.svg)&#xD;&#xA;" pageTemplate="">
           <appearance>
             <text alignment="Center" color="Light"/>
           </appearance>
