@@ -33,7 +33,8 @@
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="Другое" id="d8a1ecea-6809-4e13-bcc3-e4ef36dbb360" text="Другое" markdownContent="&#xD;&#xA;- Владение слепым десятипальцевым методом набора текста&#xD;&#xA;- Английский: начальный уровень (чтение и перевод технической документации, переписка со словарем)&#xD;&#xA;"/>
       </elements>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Портфолио" id="portfolio" text="Портфолио" linkedElements="4da48b90-0ed1-410d-9770-bfb22a42a6d8 a9dfa175-56c9-442a-88ae-03b011335fc7 3ad3a968-6c03-4498-956b-e02f32a3ad91" role="Context" sectionStyle="Tab">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Портфолио" id="portfolio" text="Портфолио" linkedElements="4da48b90-0ed1-410d-9770-bfb22a42a6d8 a9dfa175-56c9-442a-88ae-03b011335fc7 3ad3a968-6c03-4498-956b-e02f32a3ad91" role="Context" sectionStyle="Tab" activatorType="None">
+      <appearance/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Проекты" id="4da48b90-0ed1-410d-9770-bfb22a42a6d8" text="Проекты" linkedElements="4cc853de-a641-4686-9999-3f4ac27c5be3 87cf765f-f070-4850-94eb-97286c110994" role="Section" sectionStyle="Table" markdownContent="&#xD;&#xA;&#xD;&#xA;">
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="проекты в обратном календарном порядке 03.2019 - по сейчас" id="4cc853de-a641-4686-9999-3f4ac27c5be3" text="Март 2019 - по настоящее время" linkedElements="59e9911c-109d-4318-9f4d-430a6c578d17" role="Section" markdownContent="Разработка конструктора-генератора сложноструктурированных статических веб-сайтов __Nasdanika Vinci__.&#xD;&#xA;&#xD;&#xA;">
           <elements xsi:type="org.nasdanika.vinci.app:Action" title="Задачи на проекте" id="59e9911c-109d-4318-9f4d-430a6c578d17" text="Задачи на проекте" role="Context"/>
@@ -44,12 +45,34 @@
           <elements xsi:type="org.nasdanika.vinci.app:Action" title="Результаты проекта" id="7ea2438f-b8aa-43fe-97e5-e54453c2765f" text="Результаты проекта" role="Context"/>
         </elements>
       </elements>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Публикации" id="a9dfa175-56c9-442a-88ae-03b011335fc7" text="Публикации" linkedElements="ad3121df-aa15-4111-851f-a3845c3b9565" role="Section" sectionStyle="Card" sectionColumns="2">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Публикации" id="a9dfa175-56c9-442a-88ae-03b011335fc7" text="Публикации" linkedElements="ad3121df-aa15-4111-851f-a3845c3b9565 47e42fa6-2a7a-49ae-a49a-d25f7b160202" role="Section" sectionStyle="Card" sectionColumns="2">
         <appearance>
           <margin size="4" breakpoint="Large" left="false" right="false"/>
         </appearance>
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Теоретические основы построения Vinci - моделей. На основе базового курса Создаём веб - портофолио" id="ad3121df-aa15-4111-851f-a3845c3b9565" text="Теоретические основы построения Vinci - моделей. На основе базового курса &quot;Создаём веб - портофолио с генератором сайтов Nasdanika Vinci&quot;" role="Section" markdownContent="https://tanchora.github.io/vinci_udemy_base_course/index.html">
-          <content xsi:type="org.nasdanika.ncore:Value" value="&lt;iframe  src=&quot;https://tanchora.github.io/vinci_udemy_base_course/index.html&quot; width=&quot;100%&quot; height=&quot;100%&quot;>&lt;/iframe>"/>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео-курс Создаём веб - портофолио" description="[Перейти платформу Udemy](https://www.udemy.com/course/nasdanika-vinci-level-1)&#xD;&#xA;&#xD;&#xA;[Посмотреть на YouTube](https://www.youtube.com/playlist?list=PLqZWa5YR2-FhWXAS_yKuAOUtUmLYDGcpf)" id="ad3121df-aa15-4111-851f-a3845c3b9565" color="Primary" text="Видео-курс &quot;Создаём веб - портофолио с генератором сайтов Nasdanika Vinci&quot;" linkedElements="65c8168a-aebf-457b-8029-4e3d54171aeb 24e44ca4-62d5-48fb-8f24-50110a9ae16e" role="Section" activator="" markdownContent="![](./img/BaseCourceZastavka_0401.svg)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark-fluid.vinci">
+          <appearance>
+            <text alignment="Center" color="Light"/>
+          </appearance>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Перейти платформу Udemy" id="65c8168a-aebf-457b-8029-4e3d54171aeb" color="Dark" text="Перейти платформу Udemy" role="Context" activator="https://www.udemy.com/course/nasdanika-vinci-level-1">
+            <appearance>
+              <text weight="Bold"/>
+            </appearance>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Посмотреть на YouTube" id="24e44ca4-62d5-48fb-8f24-50110a9ae16e" color="Dark" text="Посмотреть на YouTube" role="Context" markdownContent="https://www.youtube.com/playlist?list=PLqZWa5YR2-FhWXAS_yKuAOUtUmLYDGcpf">
+            <appearance>
+              <text weight="Bold"/>
+            </appearance>
+          </elements>
+        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Теоретические основы использования Nasdanika Vinci" id="47e42fa6-2a7a-49ae-a49a-d25f7b160202" color="Primary" text="Теоретические основы построения Vinci - моделей и создания Vinci - сайтов" role="Section" activator="" markdownContent="![](./img/GetStarted01.svg)&#xD;&#xA;" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark-fluid.vinci">
+          <appearance>
+            <text alignment="Center" color="Light"/>
+          </appearance>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Перейти к курсу" id="362fe3cf-30f6-4053-ac62-30a56cec1994" text="Перейти к курсу" role="Context" activator="https://tanchora.github.io/vinci_udemy_base_course/">
+            <appearance>
+              <text weight="Bold"/>
+            </appearance>
+          </elements>
         </elements>
       </elements>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прочее" id="3ad3a968-6c03-4498-956b-e02f32a3ad91" text="Прочее" role="Section">
