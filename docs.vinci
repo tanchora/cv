@@ -53,7 +53,7 @@
           <appearance>
             <text alignment="Center" color="Light"/>
           </appearance>
-          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Перейти платформу Udemy" id="65c8168a-aebf-457b-8029-4e3d54171aeb" color="Dark" text="Перейти платформу Udemy" role="Context" activator="https://www.udemy.com/course/nasdanika-vinci-level-1">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="Перейти на платформу Udemy" id="65c8168a-aebf-457b-8029-4e3d54171aeb" color="Dark" text="Перейти на платформу Udemy" role="Context" activator="https://www.udemy.com/course/nasdanika-vinci-level-1">
             <appearance>
               <text weight="Bold"/>
             </appearance>
