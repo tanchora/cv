@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Иванов Иван Иванович" id="header" text="Иванов Иван Иванович" linkedElements="index 0feff993-8f43-4ad4-83a1-199bccd67598 bc9775ee-e3ca-432a-8ce5-d7663640bbc8" sectionStyle="Default" pageTemplate="">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Жизнеописание (Curriculum Vitae)" id="index" icon="far fa-user" linkedElements="23056771-2d02-450a-93ee-6ab4208e1203 177ea55c-3ef4-4619-a60c-e43288fb5963 portfolio" sectionStyle="Default"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Personal Summary" id="0feff993-8f43-4ad4-83a1-199bccd67598" text="Кратко о себе" role="Section" markdownContent="&#xD;&#xA;&#xD;&#xA;">
+    <content xsi:type="org.nasdanika.vinci.bootstrap:Container">
+      <rows>
+        <columns title="Аватарка">
+          <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="аватарка" style="true" markdown="![](./img/avatar.png)&#xD;&#xA;">
+            <appearance background="White">
+              <attributes xsi:type="org.nasdanika.ncore:Object" name="class">
+                <entries xsi:type="org.nasdanika.ncore:Property" value="lg" name="shadow"/>
+                <entries xsi:type="org.nasdanika.ncore:Property" name="rounded"/>
+              </attributes>
+              <margin size="5" top="false" left="false" right="false"/>
+              <margin size="2" bottom="false" left="false" right="false"/>
+              <padding size="2"/>
+            </appearance>
+          </content>
+          <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Персональная информация" style="true" markdown="45 лет, женат, взрослые дети      &#xD;&#xA;г. Хабаровск     &#xD;&#xA;не готов к переезду, готов к командировкам&#xD;&#xA;&#xD;&#xA;8-92х-ХХХ-ХХ-ХХ    &#xD;&#xA;example@gmail.com"/>
+          <width breakpoint="Medium" width="3"/>
+          <width breakpoint="Small" width="12"/>
+        </columns>
+        <columns title="Текст">
+          <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="краткое описание себя" style="true" markdown="Более 20 лет моя профессиональная деятельность так или иначе связана с обучением и методической поддержкой пользователей программного обеспечения и студентов.    &#xD;&#xA;С  2012 - по настоящее время - работа в  сфере разработки и внедрения программного обеспечения. Специалист полного цикла: от разработки плана проекта, анализа требований заказчика, постановки задач разработчикам и закупки оборудования до обучения пользователей и внедрения в промышленную эксплуатацию.     &#xD;&#xA;За 8 лет принимала участие 14 крупных самостоятельных проектах из них 8 - в качестве руководителя, либо ИТ - куратора проекта. &#xD;&#xA;&#xD;&#xA;__Образование:__     &#xD;&#xA;&#xD;&#xA;Бухгалтерский учёт, анализ и аудит (080109)     &#xD;&#xA;Хабаровская государственная академия экономики и права    &#xD;&#xA;диплом специалиста с отличием &#xD;&#xA;&#xD;&#xA;Юридический факультет ХГАЭиП, 2002-2006 г. (незаконченное высшее)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+            <appearance background="White">
+              <attributes xsi:type="org.nasdanika.ncore:Object" name="class">
+                <entries xsi:type="org.nasdanika.ncore:Property" value="lg" name="shadow"/>
+                <entries xsi:type="org.nasdanika.ncore:Property" name="rounded"/>
+              </attributes>
+              <margin size="2"/>
+              <padding size="3"/>
+            </appearance>
+          </content>
+          <width breakpoint="Medium" width="9"/>
+          <width breakpoint="Small" width="12"/>
+        </columns>
+      </rows>
+    </content>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Professional Summary" id="bc9775ee-e3ca-432a-8ce5-d7663640bbc8" text="Сфера проффестиональных интересов" linkedElements="57a1327b-92ae-4b93-8956-3281491f3080 725c1eb5-67dc-4c58-9411-60801ddcfe18" role="Section" markdownContent="">
+    <content xsi:type="org.nasdanika.vinci.components:MarkdownText" title="Ключевые навыки" style="true" markdown="Project Management.&#xD;&#xA;Проектирование информационных систем.&#xD;&#xA;Внедрение ПО, сопровождение разработки&#xD;&#xA;Обучение и техническая поддержка пользователей ПО.&#xD;&#xA;Администрирование WMS&#xD;&#xA;"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Опыт работы" id="23056771-2d02-450a-93ee-6ab4208e1203" text="Опыт работы" linkedElements="f22e24da-29a1-44d5-bc10-0c676863f676 04684792-ebe1-4202-b6ce-ff94ef435f1f d55b8e42-ebc2-4448-854b-aef19396bfb1 9cb68e4d-15d8-43c3-ba5f-f0fbc07a8333 05b04a53-a1a3-4f81-9613-d16f3154dc5e" role="Context" sectionStyle="Table"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="5-e место работы" id="05b04a53-a1a3-4f81-9613-d16f3154dc5e" text="Декабрь 1998 — &lt;br>июль 2011" role="Section" markdownContent="&#xD;&#xA;__ИП Конюкова__&#xD;&#xA;&#xD;&#xA;__Репититор__    &#xD;&#xA;&#xD;&#xA;Индивидуальный предприниматель в сфере поиска, анализа и научной компиляции информации&#xD;&#xA;2000-2003 гг. – специализация: юриспруденция.&#xD;&#xA;2004-2009 г. - специализация: экономические дисциплины, такие как анализ финансово-хозяйственной деятельности, финансовый менеджмент, в т.ч. бизнес-планирование.&#xD;&#xA;&#xD;&#xA;* Разработка авторского инструмента для анализа хозяйственной деятельности предприятия в среде MS Excel (расчет финансовых коэффициентов, автоматическое составление текстовых отчетов).&#xD;&#xA;* Разработка инструмента для оценки эффективности предлагаемых мероприятий по улучшению деятельности предприятий (инвестиционный анализ: расчет точки безубыточности проекта, дисконтированных денежных потоков и т.д.)."/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="4-e место работы" id="9cb68e4d-15d8-43c3-ba5f-f0fbc07a8333" text="Апрель 2012 — &lt;br> январь 2013 " role="Section" markdownContent="__ООО &quot;Хабэко-Партнёр&quot;__&#xD;&#xA;&#xD;&#xA;__ИТ-специалист__    &#xD;&#xA;&#xD;&#xA;1. Внедрение регионального фрагмента единой государственной информационной системы в сфере здравоохранения Приморского края в части единой электронной регистратуры&#xD;&#xA;* Предпроектное обследование (частичное: сбор данных для первоначального заполнения и запуска системы).&#xD;&#xA;* Подготовка обучающих материалов, обучение, организация ввода данных, первоначальная настройка МИС.&#xD;&#xA;2. Обучение и техническая поддержка пользователей ИС О7.Образование: «Электронный Детский Сад» г.Магадан и Магаданской области&#xD;&#xA;* Обучение пользователей.&#xD;&#xA;* Администрирование ИС «Электронный Детский Сад».&#xD;&#xA;"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="3-e место работы" id="d55b8e42-ebc2-4448-854b-aef19396bfb1" text="февраль 2013 -&lt;br> февраль 2014" role="Section" markdownContent="__ООО &quot;Ланит-Партнёр&quot;__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;__Методист - внедренец__    &#xD;&#xA;&#xD;&#xA;1. Внедрение регионального фрагмента единой государственной информационной системы в сфере здравоохранения Приморского края в части единой электронной регистратуры&#xD;&#xA;* Предпроектное обследование (частичное: сбор данных для первоначального заполнения и запуска системы).&#xD;&#xA;* Подготовка обучающих материалов, обучение, организация ввода данных, первоначальная настройка МИС.&#xD;&#xA;2. Обучение и техническая поддержка пользователей ИС О7.Образование: «Электронный Детский Сад» г.Магадан и Магаданской области&#xD;&#xA;* Обучение пользователей.&#xD;&#xA;* Администрирование ИС «Электронный Детский Сад».&#xD;&#xA;"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Предпоследнее место работы" id="04684792-ebe1-4202-b6ce-ff94ef435f1f" text="август 2014 - &lt;br>март  2019" role="Section" markdownContent="&#xD;&#xA;__ООО &quot;Невада - Дальний Восток&quot;__&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;__Специалист по внедрению проектов в области информационных технологий__&#xD;&#xA;&#xD;&#xA;Основные обязаности:&#xD;&#xA;&#xD;&#xA;Сопровождение внедрения 1С:ERP Управление предприятием 2.0 и 2.2 (2.2.1.115). Углубленное знание раздела &quot;Склад и доставка&quot;, &quot;Продажи&quot;.&#xD;&#xA;В том числе:&#xD;&#xA;* Предпроектное тестирование конфигурации.&#xD;&#xA;* Обучение пользователей. Создание видео-инструкций.&#xD;&#xA;&#xD;&#xA;Сопровождение адаптации стандартной конфигурации 1С:ERP Управление предприятием 2.2 (2.2.1.115) под бизнес-процессы компании.&#xD;&#xA;в том числе:&#xD;&#xA;* Анализ требований бизнеса как заказчика. Интревьюирование пользователей, анализ бизнес-процесса, описание функциональных требований.&#xD;&#xA;* Постановка задач программисту, отслеживание исполнения задач.&#xD;&#xA;* Тестирование доработок.&#xD;&#xA;* Разработка инструкций и обучающих материалов, согласование регламентов использования.&#xD;&#xA;* Передача доработок пользователям в пром.эксплуатацию, первоначальное сопровождение (обучение, консультирование).&#xD;&#xA;&#xD;&#xA;Администрирование проектов по внедрению 1С:WMS Логистика. Управление складом, ред. 4.5 (сопровождение запуска 5 складов, один из них в качестве руководителя проекта).&#xD;&#xA;В том числе:&#xD;&#xA;* Координация и администрирование деятельности рабочей группы.&#xD;&#xA;* Определение потребности в доработке конфигурации под бизнес-процессы конкретного склада, формулирование требований к доработкам, составление ТЗ.&#xD;&#xA;* Выбор оборудования для внедрения WMS. Заключение договоров на поставку оборудования, монтаж Wi-Fi сети склада.&#xD;&#xA;* Первоначальная настройка и заполнение системы, сопровождение запуска (обучение и контроль работы пользователей, настройка терминалов сбора данных и т.д.).&#xD;&#xA;* Администрирование складских процессов на этапе запуска (приемка, отгрузка, планирование отбора и т.д.).&#xD;&#xA;&#xD;&#xA;Проект по внедрению 1С:Предприятие 8. Инвентаризация и управление имуществом - в качестве ИТ-куратора проекта."/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Последнее место работы" description="&lt;img src=&quot;./img/bolvanka.jpg&quot;      alt=&quot;###&quot;>" id="f22e24da-29a1-44d5-bc10-0c676863f676" text="Март 2019 - по настоящее время " linkedElements="a034fc87-43d1-42fe-8521-d23f57974072 545c4cf7-b064-49ff-b0eb-bd371b3b0983 348cab91-4b41-4b0b-b068-7b496dd3bf4b" role="Section" sectionStyle="Card" sectionColumns="2" markdownContent="__Nasdanika LLC__  (разработка програмного обеспечения)&#xD;&#xA;&#xD;&#xA;---   &#xD;&#xA;__Project manager, product owner__     &#xD;&#xA;">
+    <appearance>
+      <attributes xsi:type="org.nasdanika.ncore:Object" name="class">
+        <entries xsi:type="org.nasdanika.ncore:Property" value="responsive-md" name="table"/>
+      </attributes>
+    </appearance>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Образование и навыки" id="177ea55c-3ef4-4619-a60c-e43288fb5963" text="Образование и навыки" linkedElements="7b703fea-e169-46bd-ad91-0ae3cea0c69a c47ead74-3d85-4d1d-9848-17241d6a6aed" role="Context" sectionStyle="Default" markdownContent=""/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Навыки" id="7b703fea-e169-46bd-ad91-0ae3cea0c69a" text="Навыки" linkedElements="a075712a-d942-45b7-96bb-b6200f8fda5a 6f1528d7-a7ed-4004-afc0-596960ba1db5 66a4ef8b-0166-4b7b-8a57-a3be9d298b27 e82fd514-11a4-4d1a-8cac-da1d7834279e 11b47d9e-be90-45a1-a232-804d09ea522b 37f34083-30b0-4e89-aabb-4528e300685b 74f05464-6554-43ac-b3d6-e21a48d9179d be252387-afa2-4c33-a4b1-c16c0d0563dc 281bd565-3492-4798-8d26-292e633688bb 605fb625-bc6e-426b-8ec5-6fc2b7f7928b d8a1ecea-6809-4e13-bcc3-e4ef36dbb360" role="Section" sectionStyle="Table"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Другое" id="d8a1ecea-6809-4e13-bcc3-e4ef36dbb360" text="Другое" role="Section" markdownContent="&#xD;&#xA;- Владение слепым десятипальцевым методом набора текста&#xD;&#xA;- Английский: начальный уровень (чтение и перевод технической документации, переписка со словарем)&#xD;&#xA;"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Технологии" id="605fb625-bc6e-426b-8ec5-6fc2b7f7928b" text="Технологии" role="Section" markdownContent="- HTML + CSS&#xD;&#xA;- Bootstrap&#xD;&#xA;- markdown&#xD;&#xA;- SQL (знание общих принципов построения реляционных баз данных)&#xD;&#xA;- UML (знание общих принципов построения функционально-ролевых моделей)&#xD;&#xA;- DAX&#xD;&#xA;&#xD;&#xA;"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Информационно правовые системы" id="281bd565-3492-4798-8d26-292e633688bb" text="Информационно правовые системы" role="Section" markdownContent="&#xD;&#xA;- ИПС Гарант     &#xD;&#xA;- ИПС «Консультант» &#xD;&#xA;(продвинутый пользователь)&#xD;&#xA;"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Среды разработки" id="11b47d9e-be90-45a1-a232-804d09ea522b" text="Среды разработки" role="Section" markdownContent="&#xD;&#xA;- IDE Eclipse (Modeling tools)&#xD;&#xA;- Visual Syudio - поверхностно, в части работы с SQL"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Графические редакторы" id="be252387-afa2-4c33-a4b1-c16c0d0563dc" text="Графические редакторы" role="Section" markdownContent="&#xD;&#xA;- CorelDraw&#xD;&#xA;- Inksape &#xD;&#xA;- CorelPhotoPaint&#xD;&#xA; "/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Офисные программы" id="37f34083-30b0-4e89-aabb-4528e300685b" text="Офисные программы" role="Section" markdownContent="&#xD;&#xA;- MS Office:  (Word, Excel, Visio, Access, PowerPoint, Outlook Express)&#xD;&#xA;- Open Office; Google Docs&#xD;&#xA;- Typora "/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео редакторы" id="74f05464-6554-43ac-b3d6-e21a48d9179d" text="Видео редакторы" role="Section" markdownContent="&#xD;&#xA;- Camtasia Studio &#xD;&#xA;- BB FlashBack&#xD;&#xA;"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Инструменты анализа и систематизации информации и конструирования документации" id="e82fd514-11a4-4d1a-8cac-da1d7834279e" text="Инструменты анализа и систематизации информации &lt;br>и конструирования документации" role="Section" markdownContent="&#xD;&#xA;- Nasdanika Vinci&#xD;&#xA;- MindManager&#xD;&#xA;- XMind"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Инструменты планирования проектов" id="6f1528d7-a7ed-4004-afc0-596960ba1db5" text="Инструменты планирования &lt;br>проектов" role="Section" markdownContent="&#xD;&#xA;- MS Project &#xD;&#xA;- ProjectLibre&#xD;&#xA;"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Инструменты организации командной работы" id="66a4ef8b-0166-4b7b-8a57-a3be9d298b27" text="Инструменты организации командной работы" role="Section" markdownContent="&#xD;&#xA;- Mantis    &#xD;&#xA;- Trello&#xD;&#xA;- GitHub&#xD;&#xA;- Weekdone&#xD;&#xA;- Битрикс -  24&#xD;&#xA;- Teams &#xD;&#xA;- Evernote&#xD;&#xA;- Redmine"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прикладные решения 1С" id="a075712a-d942-45b7-96bb-b6200f8fda5a" text="Прикладные решения 1С" role="Section" markdownContent="&#xD;&#xA;- 1С:WMS Логистика. Управление складом, ред. 4.5    -  администрирование, уверенное знание всех подсистем, настройка оборудования (принтеров этикеток и ТСД)&#xD;&#xA;- 1С:ERP Управление предприятием 2.0 и 2.2 (2.2.1.115). &#xD;&#xA;- 1C: Инвентаризация и управление имуществом  -  ИТ-куратор проекта внедрения: администрирование, анализ конфигурации для разработки правил обмена с УХ и Бухгалтерией, подговка входящей инвентарицизации и т.д.;&#xD;&#xA;- 1С:Бухгалтерия 3.0 (в части учёта основных средств) &#xD;&#xA;- 1С:Управление холдингом 8 (в части учёта основных средств) &#xD;&#xA;- 1С:Аренда и управление недвижимостью -  подготовка к внедрению (ИТ-куратор проекта на стадии выбора ПО: анализ конфигурации на соответствие требованиям предприятия)&#xD;&#xA;&#xD;&#xA;Базовые навыки использования консоли запросов, создания отчётов на СКД, проектирования регистров и форм."/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Образование" id="c47ead74-3d85-4d1d-9848-17241d6a6aed" text="" role="Section" markdownContent="Бухгалтерский учёт, анализ и аудит (080109)&#xD;&#xA;Хабаровская государственная академия экономики и права&#xD;&#xA;диплом специалиста с отличием&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Юридический факультет ХГАЭиП, 2002-2006 г. (незаконченное высшее)">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Курсы, сертификаты" id="c2aa5441-1670-4eba-b9f6-a4166ac890ea" text="Курсы, сертификаты" role="Context"/>
+    <content xsi:type="org.nasdanika.ncore:Value" value="&lt;p>&lt;/p>"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Портфолио" id="portfolio" text="Портфолио" linkedElements="4da48b90-0ed1-410d-9770-bfb22a42a6d8 a9dfa175-56c9-442a-88ae-03b011335fc7 3ad3a968-6c03-4498-956b-e02f32a3ad91" role="Context" sectionStyle="Tab" activatorType="None">
+    <appearance/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прочее" id="3ad3a968-6c03-4498-956b-e02f32a3ad91" text="Прочее" role="Section">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Сайт про цветочки" id="7bd1e0a8-d2df-4fca-b038-3bce23351163" text="Адениум - ДВ" role="Section" markdownContent="https://tanchora.github.io/adenium-dv/"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Публикации" id="a9dfa175-56c9-442a-88ae-03b011335fc7" text="Публикации" linkedElements="ad3121df-aa15-4111-851f-a3845c3b9565 47e42fa6-2a7a-49ae-a49a-d25f7b160202" role="Section" sectionStyle="Card" sectionColumns="2">
+    <appearance>
+      <margin size="4" breakpoint="Large" left="false" right="false"/>
+    </appearance>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Видео-курс Создаём веб - портофолио" description="[Перейти платформу Udemy](https://www.udemy.com/course/nasdanika-vinci-level-1)&#xD;&#xA;&#xD;&#xA;[Посмотреть на YouTube](https://www.youtube.com/playlist?list=PLqZWa5YR2-FhWXAS_yKuAOUtUmLYDGcpf)" id="ad3121df-aa15-4111-851f-a3845c3b9565" color="Primary" text="Видео-курс &quot;Создаём веб - портофолио с генератором сайтов Nasdanika Vinci&quot;" linkedElements="65c8168a-aebf-457b-8029-4e3d54171aeb 24e44ca4-62d5-48fb-8f24-50110a9ae16e" role="Section" activator="" markdownContent="![](./img/BaseCourceZastavka_0401.svg)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="">
+      <appearance>
+        <text alignment="Center" color="Light"/>
+      </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Перейти на платформу Udemy" id="65c8168a-aebf-457b-8029-4e3d54171aeb" color="Dark" text="Перейти на платформу Udemy" role="Context" activator="https://www.udemy.com/course/nasdanika-vinci-level-1">
+        <appearance>
+          <text weight="Bold"/>
+        </appearance>
+      </elements>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Посмотреть на YouTube" id="24e44ca4-62d5-48fb-8f24-50110a9ae16e" color="Dark" text="Посмотреть на YouTube" role="Context" markdownContent="https://www.youtube.com/playlist?list=PLqZWa5YR2-FhWXAS_yKuAOUtUmLYDGcpf">
+        <appearance>
+          <text weight="Bold"/>
+        </appearance>
+      </elements>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Теоретические основы использования Nasdanika Vinci" id="47e42fa6-2a7a-49ae-a49a-d25f7b160202" color="Primary" text="Теоретические основы построения Vinci - моделей и создания Vinci - сайтов" role="Section" activator="" markdownContent="![](./img/GetStarted01.svg)&#xD;&#xA;" pageTemplate="">
+      <appearance>
+        <text alignment="Center" color="Light"/>
+      </appearance>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Перейти к курсу" id="362fe3cf-30f6-4053-ac62-30a56cec1994" text="Перейти к курсу" role="Context" activator="https://tanchora.github.io/vinci_udemy_base_course/">
+        <appearance>
+          <text weight="Bold"/>
+        </appearance>
+      </elements>
+    </elements>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Проекты" id="4da48b90-0ed1-410d-9770-bfb22a42a6d8" text="Проекты" linkedElements="4cc853de-a641-4686-9999-3f4ac27c5be3 87cf765f-f070-4850-94eb-97286c110994" role="Section" sectionStyle="Table" markdownContent="&#xD;&#xA;&#xD;&#xA;">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="проекты в обратном календарном порядке 03.2019 - по сейчас" id="4cc853de-a641-4686-9999-3f4ac27c5be3" text="Март 2019 - по настоящее время" linkedElements="59e9911c-109d-4318-9f4d-430a6c578d17" role="Section" markdownContent="Разработка конструктора-генератора сложноструктурированных статических веб-сайтов __Nasdanika Vinci__.&#xD;&#xA;&#xD;&#xA;">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Задачи на проекте" id="59e9911c-109d-4318-9f4d-430a6c578d17" text="Задачи на проекте" role="Context"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Результаты проекта" id="9adf4e5a-93f4-460e-b3bd-fcf603bade1b" text="Результаты проекта" role="Context"/>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="проекты в обратном календарном порядке 09.18 - 03.2019" id="87cf765f-f070-4850-94eb-97286c110994" text="Сентябрь 2018 - март 2019" role="Section" markdownContent="Оптимизация бизнес-процесса по учёту основных средств с внедрением 1С «Инвентаризация и управление имуществом» в Эником Невада групп">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Задачи на проекте" id="5ebc47b5-b0ef-4f0b-8a05-83b7483c16fa" text="Задачи на проекте" role="Context"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Результаты проекта" id="7ea2438f-b8aa-43fe-97e5-e54453c2765f" text="Результаты проекта" role="Context"/>
+    </elements>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="ProfSum#1" id="57a1327b-92ae-4b93-8956-3281491f3080" text="ProfSum#1" role="Context"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="ProfSum#2" id="725c1eb5-67dc-4c58-9411-60801ddcfe18" text="ProfSum#2" role="Context"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Обязанности" id="a034fc87-43d1-42fe-8521-d23f57974072" text="Обязанности" role="Section" markdownContent="Постановка задач по разработке продукта (конструктора - генератора веб-документации Nasdanika Vinci).&#xD;&#xA;Разработка обучающих материалов&#xD;&#xA;Тестирование продукта&#xD;&#xA;Разработка статических сайтов&#xD;&#xA;"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Достижения" id="545c4cf7-b064-49ff-b0eb-bd371b3b0983" text="Достижения" role="Section" markdownContent="Nasdanika Vinci Get Started - учебное руководство для начинающего пользователя "/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Подробнее" id="348cab91-4b41-4b0b-b068-7b496dd3bf4b" text="Подробнее" role="Context"/>
+</org.nasdanika.vinci.app:Action>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" title="Снежко Иван Эйгонович" id="index" text="Снежко Иван Эйгонович" linkedElements="b2e1231b-31db-4cec-a9c1-c9d5306f25a2 1d05812a-10de-4859-9b38-318e9381e06c 919b9f7b-709b-4dbf-8bcf-6585d19f19c1" sectionStyle="Default" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/primary-dark.vinci">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Цель: вакансия" id="b2e1231b-31db-4cec-a9c1-c9d5306f25a2" text="Специалист отдела внедрения и сопровождения ПО" activatorType="None"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Ключевые навыки" id="1d05812a-10de-4859-9b38-318e9381e06c" text="Ключевые навыки" role="Section"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Опыт работы" id="919b9f7b-709b-4dbf-8bcf-6585d19f19c1" text="Опыт работы" linkedElements="//@elements.3 //@elements.4" role="Section" sectionStyle="Default"/>
+  <elements xsi:type="org.nasdanika.vinci.app:ActionReference" title="последнее место работы">
+    <action xsi:type="org.nasdanika.vinci.app:Action" href="curriculumvitae.vinci#f22e24da-29a1-44d5-bc10-0c676863f676"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:ActionReference" title="предпоследнее место работы">
+    <action xsi:type="org.nasdanika.vinci.app:Action" href="curriculumvitae.vinci#04684792-ebe1-4202-b6ce-ff94ef435f1f"/>
+  </elements>
+  <content xsi:type="org.nasdanika.ncore:SupplierFactoryReference" title="персональные данные из св">
+    <target xsi:type="org.nasdanika.vinci.bootstrap:Container" href="curriculumvitae.vinci#//@elements.1/@content.0"/>
+  </content>
+</org.nasdanika.vinci.app:Action>
