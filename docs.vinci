@@ -152,8 +152,14 @@
           </elements>
         </elements>
       </elements>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прочее" id="3ad3a968-6c03-4498-956b-e02f32a3ad91" text="Прочее" role="Section">
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Сайт про цветочки" id="7bd1e0a8-d2df-4fca-b038-3bce23351163" text="Адениум - ДВ" role="Section" markdownContent="https://tanchora.github.io/adenium-dv/"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Прочее" id="3ad3a968-6c03-4498-956b-e02f32a3ad91" text="Прочее" linkedElements="7bd1e0a8-d2df-4fca-b038-3bce23351163" role="Section" sectionStyle="Card" sectionColumns="2">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="Сайт про цветочки" id="7bd1e0a8-d2df-4fca-b038-3bce23351163" text="Адениум - ДВ" icon="" tooltip="Дневник цветовода и поддержка продаж адениумов" linkedElements="011e1a6b-5ac0-45bb-8b47-f173c2cb7b22" role="Section" sectionStyle="Pill" markdownContent="Сайт - блог и галерея растений из моей коллекции. &#xD;&#xA;&#xD;&#xA;В настоящее время сайт находится в разработке.    &#xD;&#xA;&#xD;&#xA;Цель создания сайта  - уйти от ограничений, накладываемых соц.сетями и распространенными платформами для создания блогов.  &#xD;&#xA;">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" title="ссылка на сайт про цветочки" id="011e1a6b-5ac0-45bb-8b47-f173c2cb7b22" text="Перейти к сайту" icon="" tooltip="Дневник цветовода и поддержка продаж адениумов" role="Context" activator="https://tanchora.github.io/adenium-dv/index.html" markdownContent="https://tanchora.github.io/adenium-dv/&#xD;&#xA;">
+            <appearance>
+              <text alignment="Right"/>
+            </appearance>
+          </elements>
+        </elements>
       </elements>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Summary" id="0feff993-8f43-4ad4-83a1-199bccd67598" text="" role="Section">
