@@ -9,7 +9,7 @@
   <elements xsi:type="org.nasdanika.vinci.app:ActionReference" title="предпоследнее место работы">
     <action xsi:type="org.nasdanika.vinci.app:Action" href="curriculumvitae.vinci#04684792-ebe1-4202-b6ce-ff94ef435f1f"/>
   </elements>
-  <content xsi:type="org.nasdanika.ncore:SupplierFactoryReference" title="персональные данные из св">
+  <content xsi:type="org.nasdanika.ncore:Reference" title="персональные данные из св">
     <target xsi:type="org.nasdanika.vinci.bootstrap:Container" href="curriculumvitae.vinci#//@elements.1/@content.0"/>
   </content>
 </org.nasdanika.vinci.app:Action>
