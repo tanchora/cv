@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.bootstrap:BootstrapPage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" xmlns:org.nasdanika.vinci.html="urn:org.nasdanika.vinci.html" name="${actions/active/text}" fontAwesome="true" lineAwesome="true" jsTree="true" githubMarkdownCss="true" highlightJs="true" theme="United">
+  <head xsi:type="org.nasdanika.vinci.html:ContentTag">
+    <attributes xsi:type="org.nasdanika.ncore:Property" value="generator" interpolate="false" name="name"/>
+    <attributes xsi:type="org.nasdanika.ncore:Property" value="Nasdanika Vinci" interpolate="false" name="content"/>
+  </head>
+  <head xsi:type="org.nasdanika.vinci.html:Stylesheet" code=".nsd-app-content-row {&#xA;    min-height: 80vh;&#xA;}&#xA;.nsd-root-action {&#xA;    text-decoration: none;&#xA;}&#xD;&#xA;&#xD;&#xA;.jstree-anchor {&#xD;&#xA;    white-space : normal !important;&#xD;&#xA;    height : auto !important;&#xD;&#xA;    padding-right : 24px;&#xD;&#xA;}&#xA;&#xA;@media print {&#xA;  div.nsd-app-navigation-panel {&#xA;    display: none;&#xA;  }&#xA;}"/>
+  <head xsi:type="org.nasdanika.vinci.html:Script" code="$(document).ready( function() {&#xA;    $('.nsd-app-container').addClass(['border-bottom', 'border-dark']);&#xA;    $('.nsd-app-header .nav-link').addClass('text-dark');&#xA;    $('.nsd-root-action').addClass(['display-4', 'text-dark']);&#xA;&#xA;    $('.nsd-app-navbar nav.navbar').removeClass(['bg-light', 'navbar-light']);&#xD;&#xA;    $('.nsd-app-navbar nav.navbar').addClass(['bg-dark', 'navbar-dark']);&#xA;&#xA;    $('.nsd-app-navigation-panel').addClass(['border-right', 'border-light', 'pt-2']); &#xA;    $('.nsd-app-content-panel').addClass(['col']);&#xD;&#xA;    $('.nsd-app-footer').addClass(['text-center']);&#xA;});&#xA;"/>
+  <head xsi:type="org.nasdanika.ncore:Value" title="yandex-verification" value="&lt;meta name=&quot;yandex-verification&quot; content=&quot;7379f2eb997a0f8b&quot; />"/>
+  <builders xsi:type="org.nasdanika.vinci.app:BootstrapContainerApplication" fluid="true">
+    <appearance/>
+    <header>
+      <appearance background="Light"/>
+    </header>
+    <navigationBar>
+      <appearance background="Primary">
+        <attributes xsi:type="org.nasdanika.ncore:Object" name="class">
+          <entries xsi:type="org.nasdanika.ncore:Property" value="dark" name="navbar"/>
+          <entries xsi:type="org.nasdanika.ncore:Property" value="dark" name="bg"/>
+        </attributes>
+      </appearance>
+    </navigationBar>
+    <navigationPanel>
+      <appearance background="Light">
+        <padding size="2" top="false" bottom="false" right="false"/>
+      </appearance>
+      <width breakpoint="Medium" width="2"/>
+      <width breakpoint="Large" width="3"/>
+    </navigationPanel>
+    <contentPanel>
+      <appearance>
+        <padding size="2" breakpoint="Large" top="false"/>
+        <padding size="4" breakpoint="Large" bottom="false" left="false" right="false"/>
+      </appearance>
+      <width breakpoint="Medium" width="10"/>
+      <width breakpoint="Large" width="9"/>
+    </contentPanel>
+    <footer>
+      <appearance background="Dark">
+        <attributes xsi:type="org.nasdanika.ncore:Object" name="style">
+          <entries xsi:type="org.nasdanika.ncore:Property" value="1.25rem" name="font-size"/>
+        </attributes>
+        <margin size="2" bottom="false" left="false" right="false"/>
+        <text color="Light" weight="Bold"/>
+      </appearance>
+    </footer>
+  </builders>
+</org.nasdanika.vinci.bootstrap:BootstrapPage>

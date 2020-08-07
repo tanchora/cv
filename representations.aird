@@ -6,6 +6,8 @@
     <semanticResources>сценарий.vinci</semanticResources>
     <semanticResources>сценарий/curriculumvitae.vinci</semanticResources>
     <semanticResources>сценарий/summary.vinci</semanticResources>
+    <semanticResources>script.vinci</semanticResources>
+    <semanticResources>script/templ.1.vinci</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_SODfgMfgEeqQXZqHt45rZQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_SORh8MfgEeqQXZqHt45rZQ" name="docs" repPath="#_SOPFsMfgEeqQXZqHt45rZQ">
@@ -35,6 +37,10 @@
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ZXhdgM_sEeqf4be0X9fREQ" name="Ivaniv_sum" repPath="#_ZXav0M_sEeqf4be0X9fREQ" changeId="b547f2e7-00b6-4b1e-95c7-d44467ff7399">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="сценарий/summary.vinci#index"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hcsbsNgtEeqpor9u6xSCDQ" name="Курс_резюме" repPath="#_hcqmgNgtEeqpor9u6xSCDQ">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="script.vinci#index"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -1819,4 +1825,8 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='ActionDiagram']/@defaultLayer"/>
     <target xmi:type="org.nasdanika.vinci.app:Action" href="сценарий/summary.vinci#index"/>
   </diagram:DSemanticDiagram>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_hcqmgNgtEeqpor9u6xSCDQ">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="script.vinci#index"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
 </xmi:XMI>
